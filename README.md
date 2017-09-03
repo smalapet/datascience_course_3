@@ -2,6 +2,7 @@
 Project
 # GettingandCleaningData
 #Comment
+
   ##1. Read features and activityLabels vector
   features <- read.csv("features.txt", sep = "", header = FALSE)[2]
   activities <- read.csv("activity_labels.txt", sep = "", header = FALSE)
